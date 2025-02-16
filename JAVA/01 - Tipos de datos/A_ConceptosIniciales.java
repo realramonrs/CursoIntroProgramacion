@@ -27,13 +27,13 @@ public class A_ConceptosIniciales {
 		//Vamos a escribir las primeras sentencias
 		System.out.println("Bienvenidos al maravilloso mundo de Java");
 		System.out.println("   /\\         /\\   ");
-        System.out.println("  /  \\_______/  \\  ");
-        System.out.println(" /               \\ ");
-        System.out.println("(  /\\         /\\  )");
-        System.out.println("====     V     ====");
-        System.out.println("======(__|__)======");
-        System.out.println("  (             )  ");
-        System.out.println("   (___________)   ");
+                System.out.println("  /  \\_______/  \\  ");
+        	System.out.println(" /               \\ ");
+        	System.out.println("(  /\\         /\\  )");
+        	System.out.println("====     V     ====");
+        	System.out.println("======(__|__)======");
+        	System.out.println("  (             )  ");System.out.println("   (___________)   ");
+        	
         //Java lee código linea a línea o de forma más precisa, sentencia a sentencia
         //Una sentencia siempre debe ser finalizada con ; y a continuación se debe hacer un salto de línea(no es obligatorio)
         
