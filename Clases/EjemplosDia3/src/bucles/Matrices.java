@@ -17,6 +17,17 @@ public class Matrices {
 			System.out.print(notas[i] + " ");
 		}
 		
+		//Programa un bucle que modifique todas las posiciones del array
+		//aumantando su valor en 10 
+		
+		for(int i = 0;i<10;i++) {
+			notas[i] = notas[i] + 10;
+		}
+		//Algoritmo que muestra solo los valores pares
+		
+		//Algoritmo que calcula la suma de todos los valores del array
+		
+		
 	}
 
 }
