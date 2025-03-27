@@ -23,7 +23,7 @@ public class EjercicioArray1D {
 		Random generador = new Random();
 	
 		for(int i = 0;i<valores.length;i++) {
-			valores[i] = generador.nextInt(-100,20);
+			valores[i] = generador.nextInt(100);
 			
 		}
 		
@@ -71,6 +71,33 @@ public class EjercicioArray1D {
 		}
 		
 		System.out.println("El valor más alto es: " + maximo);
+		
+		//Primer número primo almacenado
+		valores[0] = 8;
+		valores[1] = 7;
+		boolean primo = true;
+		
+		for(int i = 0;i<valores.length;i++) {
+			primo = true;
+			//Bucle para detectar divisores de cada valor 
+			for(int j = 2;j<=valores[i]/2;j++) {
+				if(valores[i] % j == 0) {
+					primo = false;
+					break;
+				}
+			}
+			
+			if(primo==true) {
+				System.out.println(valores[i] + " es primo");
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
