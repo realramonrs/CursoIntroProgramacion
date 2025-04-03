@@ -39,7 +39,8 @@ public class Ejercicio2 {
 			//Guardarla en la primera posición vacía
 			for(int i = 0;i<temperaturas.length;i++) {
 				if(temperaturas[i]== -100) {
-					temperaturas[i] = temp;					
+					temperaturas[i] = temp;		
+					break;
 				}
 			}
 			break;
@@ -49,6 +50,9 @@ public class Ejercicio2 {
 			//Mostrar registros
 			System.out.println("Temperaturas registradas hasta ahora:");
 			for(int i = 0;i<temperaturas.length;i++) {
+				if(temperaturas[i]==-100) {
+					continue;
+				}
 				System.out.print(temperaturas[i] + " ,");
 			}
 			System.out.println();
