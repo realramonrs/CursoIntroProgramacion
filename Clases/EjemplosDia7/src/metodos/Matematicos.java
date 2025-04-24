@@ -44,6 +44,7 @@ public class Matematicos {
 			x[i] = generador.nextInt(n+1);
 		}
 		
+		
 	}
 	
 	//5. Método que printa por pantalla un array de enteros
